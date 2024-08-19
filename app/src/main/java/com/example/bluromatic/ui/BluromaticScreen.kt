@@ -157,7 +157,8 @@ private fun BlurAmountContent(
     onSelectedValueChange: (Int) -> Unit
 ) {
     Column(
-        modifier = modifier.selectableGroup()
+        modifier = modifier
+            .selectableGroup()
     ) {
         Text(
             text = stringResource(R.string.blur_title),
